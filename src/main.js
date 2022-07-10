@@ -21,6 +21,14 @@ $(function (){
     });
     }
 
+    function Clickanimation(title,prop,speed,easing,backprop,backspeed){
+    $(title).click(function (){
+        $(this).animate(prop,speed,easing,
+            function (){
+                $(this).animate(backprop,backspeed);
+            })
+    })
+    }
 
 
     ColorChange("h1","color","red");
@@ -30,7 +38,9 @@ $(function (){
     // CssProperty("#typo .inner","transform","rotate(45deg)");
     CssProperty("#typo .inner","opacity","0.5");
 
-    MouseOnOff("#typo .inner","background","#e0b3b3","background","#b3e0dc")
+    MouseOnOff("#typo .inner","background","#e0b3b3","background","#b3e0dc");
 
+    Clickanimation("#typo .inner",{opacity:0,fontSize:"0px",},3000,"easeInOutElastic"
+    ,{opacity:0.5,fontSize:"22px"},500);
 
 });
