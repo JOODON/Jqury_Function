@@ -30,17 +30,17 @@ $(function (){
     })
     }
 
-
-    ColorChange("h1","color","red");
-
-    CssProperty("#typo .inner","text-decoration","underline");
-    CssProperty("#typo .inner","border-bottom","5px solid red");
-    // CssProperty("#typo .inner","transform","rotate(45deg)");
-    CssProperty("#typo .inner","opacity","0.5");
-
-    MouseOnOff("#typo .inner","background","#e0b3b3","background","#b3e0dc");
-
-    Clickanimation("#typo .inner",{opacity:0,fontSize:"0px",},3000,"easeInOutElastic"
-    ,{opacity:0.5,fontSize:"22px"},500);
+    //
+    // ColorChange("h1","color","red");
+    //
+    // CssProperty("#typo .inner","text-decoration","underline");
+    // CssProperty("#typo .inner","border-bottom","5px solid red");
+    // // CssProperty("#typo .inner","transform","rotate(45deg)");
+    // CssProperty("#typo .inner","opacity","0.5");
+    //
+    // MouseOnOff("#typo .inner","background","#e0b3b3","background","#b3e0dc");
+    //
+    // Clickanimation("#typo .inner",{opacity:0,fontSize:"0px",},3000,"easeInOutElastic"
+    // ,{opacity:0.5,fontSize:"22px"},500);
 
 });
