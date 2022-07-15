@@ -11,11 +11,11 @@ body{
     background: url("로그인 배경.png") no-repeat center;
     background-size: cover;
 }
-body::before{
+body::after{
     content:" ";
     position: absolute; z-index: 1;
     top: 0; right: 0; button:0; left: 0;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0,0,0, 0.7);
 }
 .login-form{
     position: relative; z-index: 2;
@@ -23,6 +23,7 @@ body::before{
 .login-form h1{
     font-size: 40px; color:#fff;
     text-align: center;
+    margin-bottom: 50px;
 }
 .int-area{ width: 400px; position: relative}
 .int-area input{
