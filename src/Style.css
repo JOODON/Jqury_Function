@@ -57,7 +57,9 @@ body::after{
     font-size: 13px;
     color: #166cea;
 }
+
 .btn-area{ margin-top:30px }
+
 .btn-area button {
     width: 100%;
     background-color: #166cea;
@@ -67,6 +69,7 @@ body::after{
     color: #fff;
     border-radius:25px;
 }
+
 .caption{
     margin-top: 20px;
     text-align: center;
